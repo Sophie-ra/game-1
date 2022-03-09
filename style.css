@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://storge.pic2.me/c/1360x800/717/5f8e15b715da88.78382584.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+
+
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    background: #1d1d1d;
+    margin: 2px;
+
+    transition: 3s ease;
+}
+.square:hover{
+    transition-duration: 0s;
+}
